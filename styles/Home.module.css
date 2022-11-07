@@ -66,12 +66,120 @@
 }
 
 .grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 500px 50px 50px 70px 310px 310px 310px 310px;
+  grid-row-gap: 10px;
+  grid-template-areas: 
+  "pfp headertext headertext info"
+  "skilltext skilltext skilltext skilltext"
+  "skills skills skills skills"
+  "exptext exptext exptext exptext"
+  "dndrusimg dndrusimg dndrustext dndrustext"
+  "ddtext ddtext ddimg ddimg"
+  "gdimg gdimg gdtext gdtext"
+  "jdtext jdtext jdimg jdimg"
+  ;
+
 }
+
+.link{
+  margin-top: 0;
+  color: blue;
+  text-decoration: underline;
+}
+.link:hover{
+  color: darkblue;
+}
+
+.pfp{
+  grid-area: pfp;
+}
+.pfpimg{
+  border-radius: 150px;
+  border-style: solid ;
+  border: 5px;
+  border-color: black;
+}
+.headertext{
+  font-size: 26px;
+  text-align: center;
+  grid-area: headertext;
+}
+.skillh2{
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.skilltext{
+  display: flex;
+  justify-content: center;
+  grid-area: skilltext;
+}
+.exph2{
+  margin-bottom: 10px;
+  font-size: 35px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.exptext{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  grid-area: exptext;
+}
+.info{
+  font-size: 20px;
+  grid-area: info;
+}
+.skills{
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  grid-area: skills;
+}
+.ddimg{
+  display: flex;
+  justify-content: center;
+  grid-area: ddimg;
+}
+.ddtext{
+  font-size: 20px;
+  grid-area: ddtext;
+}
+.dndrustext{
+  font-size: 20px;
+  grid-area: dndrustext;
+}
+.dndrusimg{
+  display: flex;
+  justify-content: center;
+  grid-area: dndrusimg;
+}
+.jdimg{
+  display: flex;
+  justify-content: center;
+  grid-area: jdimg;
+}
+.jdtext{
+  font-size: 20px;
+  grid-area: jdtext;
+}
+.gdimg{
+  display: flex;
+  justify-content: center;
+  grid-area: gdimg;
+}
+.gdtext{
+  font-size: 20px;
+  grid-area: gdtext;
+}
+
+
+
 
 .card {
   margin: 1rem;

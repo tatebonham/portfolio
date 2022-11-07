@@ -5,7 +5,6 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       {/* header */}
-      <NavBar/>
       {/* aside */}
       <Component {...pageProps} />
       {/* footer */}
