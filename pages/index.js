@@ -31,14 +31,14 @@ export default function Home() {
           <p>Most recent hobbies are embroidery, woodworking and D&D </p>
           <p>but they change every few months so I'm always learning something new!</p>
           <div>
-            <p><a href='/resume.pdf' className={styles.link} target='_blank' rel="noopener">Check out my resume here!</a></p>
+            <p><a href='/resume.pdf' className={styles.link}  >Check out my resume here!</a></p>
           </div>
         </div>
         <div className={styles.info}>
           <p>Phone: 480-452-5737</p>
           <p>Email: tatebonham@gmail.com</p>
-          <p>Github: <a className={styles.link} href='https://github.com/tatebonham' target='_blank' rel="noopener">github.com/tatebonham</a></p>
-          <p>LinkedIn: <a className={styles.link} href='https://www.linkedin.com/in/tate-bonham/' target='_blank' rel="noopener">in/tatebonham</a></p>
+          <p>Github: <a className={styles.link} href='https://github.com/tatebonham'  >github.com/tatebonham</a></p>
+          <p>LinkedIn: <a className={styles.link} href='https://www.linkedin.com/in/tate-bonham/'  >in/tatebonham</a></p>
           <p>Slack: @tatebonham</p>
           
           </div>
@@ -55,7 +55,7 @@ export default function Home() {
         </div>
         <div className={styles.ddtext}>
           <h2>Dungeon Diver</h2>
-          <p><a href='https://tatebonham.github.io/Dungeon-Diver/' target='_blank' className={styles.link} rel="noopener">Github</a> | <a href='https://github.com/tatebonham/Dungeon-Diver' target='_blank' className={styles.link} rel="noopener">Live</a></p>
+          <p><a href='https://tatebonham.github.io/Dungeon-Diver/'  className={styles.link} >Github</a> | <a href='https://github.com/tatebonham/Dungeon-Diver'  className={styles.link} >Live</a></p>
           <ul>
             <li>Browser game where you fight waves of mobs to save someone from the dungeon.</li>
             <li>Javascript, HTML, CSS and DOM Manipulation</li>
@@ -72,7 +72,7 @@ export default function Home() {
         </div>
         <div className={styles.dndrustext}>
         <h2>DnDs"R"Us</h2>
-        <p><a href='https://github.com/tatebonham/DnDs-R-Us' target='_blank' className={styles.link} rel="noopener">Github</a></p>
+        <p><a href='https://github.com/tatebonham/DnDs-R-Us'  className={styles.link} >Github</a></p>
           <ul>
             <li>A Dungeons and Dragons campaign tracker for players and DMs.</li>
             <li>MERN (Mongoose, Express, React, Node.js), Axios, HTML, CSS, SASS/SCSS, Crypto-js, Bcrypt</li>
@@ -89,7 +89,7 @@ export default function Home() {
         </div>
         <div className={styles.jdtext}>
         <h2>Judgement Day</h2>
-        <p><a href='https://judgement-day-tatebonham.koyeb.app/' target='_blank' className={styles.link} rel="noopener">Github</a> | <a href='https://judgement-day-tatebonham.koyeb.app/' target='_blank' rel="noopener" className={styles.link}>Live</a></p>
+        <p><a href='https://judgement-day-tatebonham.koyeb.app/'  className={styles.link} >Github</a> | <a href='https://judgement-day-tatebonham.koyeb.app/'   className={styles.link}>Live</a></p>
           <ul>
             <li>DnD forum for players to discuss their new character ideas and get feedback or just have a general discussion.</li>
             <li>JS, Bootstrap framework, Sequelize, Express, Node.js, Crypto-js, Bcrypt, Axios</li>
@@ -106,7 +106,7 @@ export default function Home() {
         </div>
         <div className={styles.gdtext}>
           <h2>Goal Digger</h2>
-          <p><a href='https://github.com/tatebonham/goal-digger' target='_blank' className={styles.link} rel="noopener">Github</a> | <a href='https://helpful-dusk-923e50.netlify.app/' target='_blank' rel="noopener" className={styles.link}>Live</a></p>
+          <p><a href='https://github.com/tatebonham/goal-digger'  className={styles.link} >Github</a> | <a href='https://helpful-dusk-923e50.netlify.app/' className={styles.link}>Live</a></p>
           <ul>
             <li>A one stop shop for all your bucket list ideas! Plan your future goals and keep track of those completed. Get inspired by a random bucket list idea or add your own item.</li>
             <li>MERN (Mongoose, Express, React, Node.js), Axios, HTML, CSS, Bootstrap framework, Crypto-js, Bcrypt</li>
