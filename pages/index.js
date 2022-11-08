@@ -55,7 +55,7 @@ export default function Home() {
         </div>
         <div className={styles.ddtext}>
           <h2>Dungeon Diver</h2>
-          <p><a href='https://tatebonham.github.io/Dungeon-Diver/'  className={styles.link} >Github</a> | <a href='https://github.com/tatebonham/Dungeon-Diver'  className={styles.link} >Live</a></p>
+          <p><a href='https://tatebonham.github.io/Dungeon-Diver/'  className={styles.link} >Github</a> | <a href='https://tatebonham.github.io/Dungeon-Diver/'  className={styles.link} >Live</a></p>
           <ul>
             <li>Browser game where you fight waves of mobs to save someone from the dungeon.</li>
             <li>Javascript, HTML, CSS and DOM Manipulation</li>
