@@ -1,3 +1,39 @@
-.extraGreen {
-    color: chartreuse
+.aboutcontainer{
+    display: flex;
+    justify-content: center;
+
 }
+
+
+.projectcard {
+    margin: 10px;
+    background-color: #222;
+    width: 80%;
+    border-radius: 25px;
+}
+
+.images{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.link{
+    margin-top: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(140, 140, 255);
+    text-decoration: underline;
+  }
+  .link:hover{
+    color: rgb(92, 92, 194);
+  }
+
+  .navlink{
+    margin: auto 2px;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: rgb(65, 65, 65);
+  }
+  .navlink:hover{
+    background-color: rgb(85, 84, 84);
+  }

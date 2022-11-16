@@ -12,17 +12,50 @@ export default function Home() {
       </Head>
       {/* useRef + scrolling for one page scrolling to different pages */}
 
-      <div className={styles.grid}>
-        <div className={styles.pfp}>
-          <Image
-                className={styles.pfpimg}
-                  src='/pfp2.jpeg'
-                  alt='Tate Bonham'
-                  width={400}
-                  height={500}
-              />
+      <div className={styles.homegrid}>
+        <div className={styles.homeprofilecard}>
+            <div className={styles.homepfp}>
+                <Image
+                    className={styles.pfpimg}
+                    src='/pfp2.jpeg'
+                    alt='Tate Bonham'
+                    width={400}
+                    height={500}
+                />
+            </div>
+            <div className={styles.homeinfo}>
+                <h1>Tate Bonham</h1>
+                <h2>Full Stack Software Engineer</h2>
+                <p>Phone: 480-452-5737</p>
+                <p>Email: tatebonham@gmail.com</p>
+                <p>Slack: @tatebonham</p>
+                <div> 
+                <a className={styles.icon} href='https://github.com/tatebonham' >
+                  <Image
+                        className={styles.iconimg}
+                        src='/github.png'
+                        alt='Tate Bonham'
+                        width={100}
+                        height={100}
+                      />
+                      </a>
+                      <a className={styles.icon} href='https://www.linkedin.com/in/tate-bonham/'  ><Image
+                        className={styles.iconimg}
+                        src='/linkedin.png'
+                        alt='Tate Bonham'
+                        width={100}
+                        height={100}
+                      /></a>
+                      <a className={styles.icon} href='/TateBonhamResume.pdf'  ><Image
+                        className={styles.iconimg}
+                        src='/Resume.png'
+                        alt='Tate Bonham'
+                        width={100}
+                        height={100}
+                      /></a></div>
+            </div>
         </div>
-        <div className={styles.headertext}>
+        {/* <div className={styles.headertext}>
           <div>
             <h1>Tate Bonham</h1>
           </div>
@@ -33,86 +66,75 @@ export default function Home() {
           <div>
             <p><a href='/resume.pdf' className={styles.link}  >Check out my resume here!</a></p>
           </div>
-        </div>
-        <div className={styles.info}>
-          <p>Phone: 480-452-5737</p>
-          <p>Email: tatebonham@gmail.com</p>
-          <p>Github: <a className={styles.link} href='https://github.com/tatebonham'  >github.com/tatebonham</a></p>
-          <p>LinkedIn: <a className={styles.link} href='https://www.linkedin.com/in/tate-bonham/'  >in/tatebonham</a></p>
-          <p>Slack: @tatebonham</p>
-          
-          </div>
+        </div> */}
         <div className={styles.skilltext}><h2 className={styles.skillh2}>Skills</h2></div>
-      <div className={styles.skills}><h4>HTML | CSS | Javascript | React | Express | Node | Git | MongoDB | SQL | SASS/SCSS | Axios </h4></div>
-        <div className={styles.exptext}><h2 className={styles.exph2}>Past Projects</h2></div>
-        <div className={styles.ddimg}>
-          <Image
-              src='/gamescreen.JPG'
-              alt='Dungeon Diver'
-              width={500}
-              height={250}
-          />
-        </div>
-        <div className={styles.ddtext}>
-          <h2>Dungeon Diver</h2>
-          <p><a href='https://tatebonham.github.io/Dungeon-Diver/'  className={styles.link} >Github</a> | <a href='https://tatebonham.github.io/Dungeon-Diver/'  className={styles.link} >Live</a></p>
-          <ul>
-            <li>Browser game where you fight waves of mobs to save someone from the dungeon.</li>
-            <li>Javascript, HTML, CSS and DOM Manipulation</li>
-            <li>The project primarily utilizes HTML Canvas through JS, the player model and enemy models are animated frame by frame subject to the browser's speed.</li>
-          </ul>
-        </div>
-        <div className={styles.dndrusimg}>
-          <Image
-              src='/dndrus.JPG'
-              alt='logo'
-              width={550}
-              height={300}
-          />
-        </div>
-        <div className={styles.dndrustext}>
-        <h2>DnDs"R"Us</h2>
-        <p><a href='https://github.com/tatebonham/DnDs-R-Us'  className={styles.link} >Github</a></p>
-          <ul>
-            <li>A Dungeons and Dragons campaign tracker for players and DMs.</li>
-            <li>MERN (Mongoose, Express, React, Node.js), Axios, HTML, CSS, SASS/SCSS, Crypto-js, Bcrypt</li>
-            <li>User authentication and hashing implemented for unique users to keep track of their campaign information.</li>
-          </ul>
-        </div>
-        <div className={styles.jdimg}>
-          <Image
-              src='/jdimg.JPG'
-              alt='logo'
-              width={500}
-              height={250}
-          />
-        </div>
-        <div className={styles.jdtext}>
-        <h2>Judgement Day</h2>
-        <p><a href='https://judgement-day-tatebonham.koyeb.app/'  className={styles.link} >Github</a> | <a href='https://judgement-day-tatebonham.koyeb.app/'   className={styles.link}>Live</a></p>
-          <ul>
-            <li>DnD forum for players to discuss their new character ideas and get feedback or just have a general discussion.</li>
-            <li>JS, Bootstrap framework, Sequelize, Express, Node.js, Crypto-js, Bcrypt, Axios</li>
-            <li>User authentication and hashing implemented for unique users to interact with the site and posts.</li>
-          </ul>
-        </div>
-        <div className={styles.gdimg}>
-          <Image
-              src='/goaldigger.JPG'
-              alt='logo'
-              width={500}
-              height={300}
-          />
-        </div>
-        <div className={styles.gdtext}>
-          <h2>Goal Digger</h2>
-          <p><a href='https://github.com/tatebonham/goal-digger'  className={styles.link} >Github</a> | <a href='https://helpful-dusk-923e50.netlify.app/' className={styles.link}>Live</a></p>
-          <ul>
-            <li>A one stop shop for all your bucket list ideas! Plan your future goals and keep track of those completed. Get inspired by a random bucket list idea or add your own item.</li>
-            <li>MERN (Mongoose, Express, React, Node.js), Axios, HTML, CSS, Bootstrap framework, Crypto-js, Bcrypt</li>
-            <li>Made calls to the bucket list API( https://api-ninjas.com/api/bucketlist ) to provide the user with ideas.</li>
-          </ul>
-          </div>
+      <div className={styles.skills}><h4>HTML | CSS | Javascript | React | Python | Node | Express | Git | MongoDB | SQL | SASS/SCSS  </h4></div>
+      <div className={styles.skillsicons}>
+                <Image
+                    className={styles.skillimg}
+                    src='/hcj.png'
+                    alt='Tate Bonham'
+                    width={200}
+                    height={100}
+                />  
+                <Image
+                    className={styles.skillimg}
+                    src='/react2.png'
+                    alt='Tate Bonham'
+                    width={80}
+                    height={80}
+                />  
+                <Image
+                    className={styles.skillimg}
+                    src='/Python.png'
+                    alt='Tate Bonham'
+                    width={80}
+                    height={80}
+                />  
+                <Image
+                    className={styles.skillimg}
+                    src='/node.png'
+                    alt='Tate Bonham'
+                    width={80}
+                    height={80}
+                />  
+                <Image
+                    className={styles.skillimg}
+                    src='/express3.png'
+                    alt='Tate Bonham'
+                    width={80}
+                    height={80}
+                />  
+                <Image
+                    className={styles.skillimg}
+                    src='/git.png'
+                    alt='Tate Bonham'
+                    width={80}
+                    height={80}
+                />  
+                <Image
+                    className={styles.skillimg}
+                    src='/mongo.png'
+                    alt='Tate Bonham'
+                    width={80}
+                    height={80}
+                />  
+                <Image
+                    className={styles.skillimg}
+                    src='/sql.png'
+                    alt='Tate Bonham'
+                    width={80}
+                    height={80}
+                />  
+                <Image
+                    className={styles.skillimg}
+                    src='/sass.png'
+                    alt='Tate Bonham'
+                    width={80}
+                    height={80}
+                />  
+                </div>
+        
       </div>
     </div>
   )
