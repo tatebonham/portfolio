@@ -17,7 +17,7 @@ export default function Home() {
             <div className={styles.homepfp}>
                 <Image
                     className={styles.pfpimg}
-                    src='/pfp2.jpeg'
+                    src='/portrait.jpg'
                     alt='Tate Bonham'
                     width={400}
                     height={500}
@@ -46,7 +46,7 @@ export default function Home() {
                         width={100}
                         height={100}
                       /></a>
-                      <a className={styles.icon} href='/TateBonhamResume.pdf'  ><Image
+                      <a className={styles.icon} href='/ResumeTateBonham.pdf'  ><Image
                         className={styles.iconimg}
                         src='/Resume.png'
                         alt='Tate Bonham'
