@@ -46,7 +46,7 @@ export default function Home() {
                         width={100}
                         height={100}
                       /></a>
-                      <a className={styles.icon} href='/ResumeTateBonham.pdf'  ><Image
+                      <a className={styles.icon} href='/Resume-TateBonham.pdf'  ><Image
                         className={styles.iconimg}
                         src='/Resume.png'
                         alt='Tate Bonham'

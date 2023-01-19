@@ -36,7 +36,7 @@ export default function About(){
                         width={100}
                         height={100}
                       /></a>
-                      <a className={styles.icon} href='/ResumeTateBonham.pdf'  ><Image
+                      <a className={styles.icon} href='/Resume-TateBonham.pdf'  ><Image
                         className={styles.iconimg}
                         src='/Resume.png'
                         alt='Tate Bonham'
@@ -53,7 +53,7 @@ export default function About(){
           <p> Former: Manager, Project Lead, IT Specialist, and Data Entry</p>
           <p>My current hobbies are game design, embroidery, woodworking and D&D but they change every few months so I'm always learning something new!</p>
           <div>
-            <p><a href='/ResumeTateBonham.pdf' className={styles.navlink}  >Check out my resume here!</a></p>
+            <p><a href='/Resume-TateBonham.pdf' className={styles.navlink}  >Check out my resume here!</a></p>
           </div>
         </div>
         <div className={styles.skilltext}><h2 className={styles.skillh2}>Skills</h2></div>
